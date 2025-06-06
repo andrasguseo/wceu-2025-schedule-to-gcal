@@ -1,9 +1,11 @@
 // ==UserScript==
 // @name         WordCamp Schedule to Google Calendar
 // @namespace    http://tampermonkey.net/
-// @version      0.3 // Updated version to reflect changes
+// @version      0.3
 // @description  Adds "Add to Google Calendar" links for each session on WordCamp Europe 2025 schedule page, automatically parsing dates.
-// @author       Gemini
+// @author       Andras Guseo, Gemini
+// @homepage     https://andrasguseo.com
+// @source       https://github.com/andrasguseo/wceu-2025-schedule-to-gcal/edit/main/wceu-2025-to-gcal.user.js
 // @match        https://europe.wordcamp.org/2025/schedule/
 // @grant        none
 // @run-at       document-end // Ensure script runs after the DOM is loaded
